@@ -34,11 +34,13 @@
   - By default it will start with a Python runtime
   - But you can start with an R runtime, e.g. https://colab.research.google.com/drive/12VVcG1zxHJRPEwbPPkfzrt1UvJ0HUOHr?usp=sharing
 - End-to-end cloud native example
-- Squiddle data API interface -> Colab with R runtime -> d/l trianing data then ingest into GEE
-- GEE processing and modelling (to make maps)
-- GEE app deployment
+  - Squiddle data API interface -> Colab with R runtime -> d/l trianing data then ingest into GEE
+  - GEE processing and modelling (to make maps)
+  - GEE app deployment
+  - ==> Cloud hosting/processing/deployment for the whole process from raw data processing to final end-user consuption
 
 ## Other things of note
 - Other Jupyter notebook implementations
 - Linking directly to things like Observable, Shiny apps etc.
-- General concept of "Code as Infrastrucutre" -> becomes more important as you move into implementing workflows into cloud architecutres like AWS/Azure/GCP 
+- General concept of "Code as Infrastrucutre" -> becomes more important as you move into implementing workflows into cloud architecutres like AWS/Azure/GCP
+- Easy to test, restart if you fail/break etc. without effecting local infratrucutre or deployments
